@@ -27,19 +27,50 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background-color: #f0efef;
+#container {
+  max-width: 100%;
+  margin: 10px;
 }
 
+body {
+     color: #000;
+     font-size: 16px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background-color: lightgray;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+header {
+     padding: 10px;
+     background: green;
+     border: 5px dotted white;
+}
+
+h1 {
+     background: rgba(0,255,0,.5);
+     padding: 10px;
+}
+
+.joePeckPic {
+     text-align: center;
+}
+
+img {
+     width: 40%;
+     position: relative;
+     margin: auto;
+}
+
+footer {
+     background: black;
+     color: white;  
+     padding: 0 40px;
+     border: dashed white 2px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
